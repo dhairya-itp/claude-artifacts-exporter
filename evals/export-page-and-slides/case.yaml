@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: export-page-and-slides
+expected_outcome: |
+  Two numbered folders: the page with every published file (index.html plus its fonts and images); the deck with its project/ slide files and every uploaded image (hashes match the asset listing), without the Slides type's built-in app files. A My artifacts.csv list, a note and manifest per folder, a yes/no table, and nothing changed on claude.ai.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: export-data-dashboard
+expected_outcome: |
+  A numbered folder holding the dashboard's stored content from its database (dash documents, datasets, and files including files/index.html, the page itself), skipping the type's built-in app files, with a manifest listing every collection read (including empty ones) and a yes/no table. If the dashboard was never filled in, the reply says so plainly and the manifest status is 'empty'. Nothing on claude.ai changes.

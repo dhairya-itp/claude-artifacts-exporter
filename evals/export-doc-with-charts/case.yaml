@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: export-doc-with-charts
+expected_outcome: |
+  A numbered folder with each tab's structured read (content.xml, keeping dates, mentions, dropdowns and embed positions), a markdown copy, a Word copy, every embedded chart/diagram node saved whole (its code), any dropdown lists, a note and manifest, and a table saying saved yes. The doc on claude.ai is not modified.
